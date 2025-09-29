@@ -44,7 +44,7 @@ export const Skills = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repellat eveniet nostrum, <br></br>ea necessitatibus neque fuga cupiditate adipisci temporibus recusandae!</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
-                                <img src={images} alt=""/>
+                                <img src={images} alt="desktop" height="110px"/>
                                 <h5>Web Development</h5>
                             </div>
                                 

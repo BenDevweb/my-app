@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
     export const Banner = () => {
         const [loopNum, setLoopNum] = useState(0);
         const [isDeleting, setIsDeleting] = useState(false);
-        const toRotate = ["Web developer", "UI/UX Designer", "Databases Manager"];
+        const toRotate = ["Ingénieur logiciel & Développeur Web Full-Stack"];
         const [text, setText] = useState('');
         const [delta, setDelta] = useState(300 - Math.random() * 100);
         const period = 2000;
@@ -44,12 +44,17 @@ import { Container, Row, Col } from "react-bootstrap";
                 <Container className="">
                     <Row className="align-items-center">
                         <Col xs={12} md={6} xl={7}>
-                            <span className="tagLine">{'Welcome to my Portfolio'}</span>
-                            <h1>{"Hi I'm Beni Bimpula"} <span className="wrap">{text}</span></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos suscipit nam id vero autem.</p>
-                            <button onClick={() => console.log("connect")}>Let's connect !<ArrowRightCircle size={25}/></button>
+                           {/* <span className="tagLine">{'Welcome to my Portfolio'}</span>*/}
+                            <h2>{"Bonjour, Je suis Beni Bimpula"}</h2>
+                            <h2 className="wrap">{text}</h2>
+                            <p className="description truncate">
+                                Développeur Web et Web Mobile fullstack junior et ingénieur logiciel, 
+                                je suis un développeur fullstack polyglotte passionné par la création 
+                                de solutions digitales modernes, performantes et sur mesure. 
+                            </p>
+                            
                         </Col>
-                        <Col xs={12} md={6} xl={5}>
+                        <Col className="img" xs={12} md={6} xl={5}>
                             <img src={images} alt="headerImg" />
                         </Col>
                     </Row>

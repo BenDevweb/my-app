@@ -5,8 +5,8 @@ export const ProjectsCard =({ title, description}) => {
         <Col sm={6} md={4}>
             <div className="proj-imgbx">
                 
-                <div className="proj-txtx">
-                    <h4>{title}</h4>
+                <div className="proj-txt">
+                    <h6>{title}</h6>
                     <span>{description}</span>
                 </div>
 

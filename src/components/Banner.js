@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-    import { ArrowRightCircle } from 'react-bootstrap-icons';
-    import images from '../assets/images.png';
-    import { useEffect, useState, useCallback } from "react";
+import images from '../assets/images.png';
+import { useEffect, useState, useCallback } from "react";
     
     export const Banner = () => {
         const [loopNum, setLoopNum] = useState(0);
@@ -30,7 +29,7 @@ import { Container, Row, Col } from "react-bootstrap";
                 setLoopNum(loopNum + 1);
                 setDelta(500);
             }
-        }, [loopNum, isDeleting, text, period]);
+        }, [loopNum, isDeleting, text, period, toRotate]);
 
         useEffect(() => {
             let ticker = setInterval(() => {

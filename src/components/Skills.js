@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
-import img from '../assets/img.avif';
+import images from '../assets/img.avif';
 import images2 from '../assets/images2.jpeg';
 import images3 from '../assets/DB.jpg';
 

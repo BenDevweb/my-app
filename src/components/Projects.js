@@ -3,7 +3,7 @@ import { ProjectsCard } from "./ProjectsCard";
 import proj1 from '../assets/mockup1.jpg';
 import proj2 from '../assets/Raccourcisseur.png';
 import proj3 from '../assets/schoolLama.jpeg';
-import proj4 from '../assets/Api.png';
+import proj5 from '../assets/cloneX.png';
 import proj6 from '../assets/Tasks.png';
 import proj7 from '../assets/Fitness.png';
 
@@ -31,48 +31,45 @@ export const Projects = () => {
             imgUrl: proj3,
         },
 
-         {
-            title: "Création d'une API de gestion des issues",
-            description: "Full-stack Web App fonctionnelle développée FastAPI et deploiee sur Render.com ",
-            imgUrl: proj4,
-            
-        },
-
-         {
-            title: "Clone du réseau social X (ex Twitter)",
-            description: "Full-stack Web App fonctionnelle développée sous AdonisJS",
-            
-        },
-
-         {
-            title: "Creation d'une app de gestion de tâches au nom de Task Manager",
-            description: "Full-stack Web App fonctionnelle développée sous ReactJS et TailwindCSS",
-            imgUrl:proj6,
-            
-        },
-
-         {
-            title: "Creation d'une app de fitness au nom de Fitness Tracker",
+          {
+            title: "Création d'une app de fitness au nom de Fitness Tracker",
             description: "Full-stack Web App fonctionnelle développée sous Django et TailwindCSS",
             imgUrl: proj7,
             
         },
 
+         
+
+         {
+            title: "Clone du réseau social X (ex Twitter)",
+            description: "Full-stack Web App fonctionnelle développée sous AdonisJS",
+            imgUrl: proj5,
+            
+        },
+
+         {
+            title: "Création d'une app de gestion de tâches au nom de Task Manager",
+            description: "Full-stack Web App fonctionnelle développée sous ReactJS et TailwindCSS",
+            imgUrl:proj6,
+            
+        },
+
+       
+
     ];
 
     return (
-        <section className="project" id="projects">
+        <section  id="projects">
             <Container>
                 <Row>
                     <Col>
                     <h2>
-                        Projets <span className="note">Faites un mouseover sur l'espace vide en dessous de Tab One pour voir mes réalisations !</span>
-                    
+                        Projets 
                     </h2>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                        <Nav.Link eventKey="first" className="mt-12">Tab One</Nav.Link>
+                        <Nav.Link eventKey="first" className="mt-12">Table</Nav.Link>
                         
                     </Nav.Item>
 

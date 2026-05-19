@@ -1,13 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { defineComponents, IgcCarouselComponent } from "igniteui-webcomponents";
-import 'igniteui-webcomponents/themes/light/bootstrap.css';
 import { Container, Row, Col } from "react-bootstrap";
-import images from '../assets/Desktop.jpeg';
+import img from '../assets/img.avif';
 import images2 from '../assets/images2.jpeg';
 import images3 from '../assets/DB.jpg';
-import images4 from '../assets/UI.jpg';
- 
+
 
 
 export const Skills = () => {
@@ -38,10 +35,10 @@ export const Skills = () => {
                     <Col>
                     <div className="skill-box">
                         <h2>
-                            Skills
+                            Compétences
                         </h2>
 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repellat eveniet nostrum, <br></br>ea necessitatibus neque fuga cupiditate adipisci temporibus recusandae!</p>
+                        <p>Développeur Web et Web Mobile et gestionnaire de bases de données.Créateur de solutions modernes et performantes.</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={images} alt="desktop" height="110px"/>
@@ -53,14 +50,10 @@ export const Skills = () => {
                                 <h5>Web Mobile</h5>
                             </div>
 
-                            <div className="item">
-                                <img src={images4} alt=""/>
-                                <h5>Web Design </h5>
-                            </div>
-
+                        
                             <div className="item">
                                 <img src={images3} alt=""/>
-                                <h5>DB Management</h5>
+                                <h5>Gestion de bases de données</h5>
                             </div>
                         </Carousel>
                     </div>

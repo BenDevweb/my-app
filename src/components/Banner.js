@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap"; // 1. Ajout de Button ici
 import images from '../assets/images.png';
 import { useEffect, useState, useCallback, useMemo } from "react";
 
@@ -76,6 +76,18 @@ export const Banner = () => {
                             de solutions digitales modernes,
                             performantes et sur mesure.
                         </p>
+
+                        {/* 2. Ton bouton de CV placé stratégiquement sous la description */}
+                        <Button 
+                            as="a" 
+                            href="/CV_Beni_Bimpula.pdf" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            variant="primary" 
+                            className="btn-cv"
+                        >
+                            Voir mon CV
+                        </Button>
 
                     </Col>
 

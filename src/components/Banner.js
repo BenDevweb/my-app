@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from "react-bootstrap"; // 1. Ajout de Button ici
+import { Container, Row, Col, Button } from "react-bootstrap"; 
 import images from '../assets/images.png';
 import { useEffect, useState, useCallback, useMemo } from "react";
 
@@ -91,7 +91,7 @@ export const Banner = () => {
 
                     </Col>
 
-                    <Col className="img" xs={12} md={6} xl={5}>
+                    <Col className="imgPort" xs={6} md={3} xl={3}>
                         <img src={images} alt="headerImg" />
                     </Col>
 

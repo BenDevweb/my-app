@@ -21,13 +21,13 @@ export const Footer = () => {
               </a>
 
               <a 
-                  href="mailto:nbimpula@gmail.com" // <-- Mets ton adresse ici
+                  href="mailto:nbimpula@gmail.com" 
                   className="text-light" 
                   aria-label="Email"
               >
                   <i className="fas fa-envelope fa-2x" aria-hidden="true"></i>
               </a>
-              
+
             </div>
 
             <p className="mb-0 small text-center">

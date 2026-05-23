@@ -77,7 +77,7 @@ export const Banner = () => {
                             performantes et sur mesure.
                         </p>
 
-                        {/* 2. Ton bouton de CV placé stratégiquement sous la description */}
+                        {/* 2. Bouton de CV placé sous la description */}
                         <Button 
                             as="a" 
                             href="/CV_Beni_Bimpula.pdf" 

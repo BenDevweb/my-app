@@ -19,6 +19,15 @@ export const Footer = () => {
               <a href="https://www.instagram.com/bimpulanzaubeni/" target="_blank" rel="noopener noreferrer" className="text-light" aria-label="Instagram">
                 <i className="fab fa-instagram fa-2x" aria-hidden="true"></i>
               </a>
+
+              <a 
+                  href="mailto:nbimpula@gmail.com" // <-- Mets ton adresse ici
+                  className="text-light" 
+                  aria-label="Email"
+              >
+                  <i className="fas fa-envelope fa-2x" aria-hidden="true"></i>
+              </a>
+              
             </div>
 
             <p className="mb-0 small text-center">

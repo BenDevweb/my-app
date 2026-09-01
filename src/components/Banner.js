@@ -63,7 +63,7 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
 
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={12} xl={7} >
 
                         <h2>Bonjour, Je suis Béni Bimpula</h2>
 
